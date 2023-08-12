@@ -1,6 +1,6 @@
 # ZxLogSystem - Enhanced Unity Console Debugs
 
-![ZxLogSystem Banner](banner.png)
+![ZxLogSystem Banner](https://gifdb.com/images/high/anime-banner-gif-file-1880kb-anpk2r6p128lqcbk.gif)
 
 Welcome to ZxLogSystem, a powerful self-debugging tool designed to bring color and style to your Unity debugging experience. Say goodbye to dull console logs and dive into a world of vibrant, colorful text with adjustable font sizes. This package is engineered not just to make debugging informative, but also to make it a visually engaging process.
 
@@ -26,7 +26,7 @@ ZxLogSystem provides a set of easy-to-use methods for enhancing your debugging e
 ### Separating Lines in Custom Color
 
 ```csharp
-Print.Separator(LogColor.BrightGreen); // Replace "YourDesiredColor" with the color you want
+Print.Separator(LogColor.BrightGreen);
 ```
 
 ### Custom Log with Color and Font Size
