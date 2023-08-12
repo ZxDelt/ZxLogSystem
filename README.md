@@ -1,6 +1,6 @@
 # ZxLogSystem - Enhanced Unity Console Debugs
 
-![ZxLogSystem Banner](https://gifdb.com/images/high/anime-banner-gif-file-1880kb-anpk2r6p128lqcbk.gif)
+![](https://gifdb.com/images/high/anime-banner-gif-file-1880kb-anpk2r6p128lqcbk.gif)
 
 Welcome to ZxLogSystem, a powerful self-debugging tool designed to bring color and style to your Unity debugging experience. Say goodbye to dull console logs and dive into a world of vibrant, colorful text with adjustable font sizes. This package is engineered not just to make debugging informative, but also to make it a visually engaging process.
 
