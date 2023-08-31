@@ -2,9 +2,11 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-#if UNITY_EDITOR
+
 namespace ZxLog
 {
+#if UNITY_EDITOR
+
     public static class Print
     {
         private static Dictionary<LogColor, string> colorMappings = new()
@@ -106,5 +108,6 @@ namespace ZxLog
         BrightWhite,
         BrightYellow
     }
-}
 #endif
+
+}
