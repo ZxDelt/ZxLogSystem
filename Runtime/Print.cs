@@ -74,12 +74,12 @@ namespace ZxLog
         public static void CustomLog(string message, string hexCode)
 #endif
         {
-#if UNITY_EDITOR
             
             if (IsValidHexCode(hexCode))
             {
                 Debug.Log($"<color={hexCode}>{message}</color>");
             }
+#if UNITY_EDITOR
             else
             {
                 Debug.LogError($"Invalid hex code: {hexCode}");
@@ -89,12 +89,12 @@ namespace ZxLog
 
         public static void CustomLog(string message, int fontSize, string hexCode)
         {
-#if UNITY_EDITOR
             
             if (IsValidHexCode(hexCode))
             {
                 Debug.Log($"<b><size={fontSize}><color={hexCode}>{message}</color></size></b>");
             }
+#if UNITY_EDITOR
             else
             {
                 Debug.LogError($"Invalid hex code: {hexCode}");
@@ -104,10 +104,7 @@ namespace ZxLog
 
         private static bool IsValidHexCode(string hexCode)
         {
-#if UNITY_EDITOR
-            
             return Regex.IsMatch(hexCode, "^#(?:[0-9a-fA-F]{3}){1,2}$");
-#endif
         }
     }
 
