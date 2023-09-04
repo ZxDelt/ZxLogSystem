@@ -69,10 +69,10 @@ namespace ZxLog
             
             colorMappings.TryGetValue(color, out var c);
             Debug.Log($"<size={fontSize}><color={c}>{message}</color></size>");
+#endif
         }
 
         public static void CustomLog(string message, string hexCode)
-#endif
         {
             
             if (IsValidHexCode(hexCode))
